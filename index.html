@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="A farewell letter">
   <title>Last Letter</title>
   <style>
     body {
@@ -28,51 +28,39 @@
       color: #b23a48;
     }
 
-    .love-letter {
-      max-width: 700px;
-      font-size: 1.2rem;
-      line-height: 1.8;
-      background-color: #fff;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
-      margin-bottom: 2rem;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1rem;
-      margin-bottom: 2rem;
+    main {
       width: 100%;
       max-width: 800px;
     }
 
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-      object-fit: cover;
-    }
-
-    .song {
+    article.farewell {
+      background: #fff8f8;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      padding: 2rem;
+      line-height: 1.8;
       margin-bottom: 2rem;
     }
 
-    iframe {
-      width: 100%;
-      max-width: 500px;
-      height: 80px;
-      border: none;
-      border-radius: 8px;
+    article.farewell p {
+      margin-bottom: 1.5rem;
     }
 
-    .messages {
-      max-width: 700px;
-      background-color: #f9f9f9;
-      padding: 1.5rem;
-      border-left: 4px solid #b23a48;
+    article.farewell .signature {
+      text-align: right;
+      margin-top: 2rem;
       font-style: italic;
+    }
+
+    blockquote {
+      white-space: pre-wrap;
+      background: #fefefe;
+      border-left: 4px solid #b23a48;
+      padding: 1.5rem;
       border-radius: 10px;
+      font-size: 0.95rem;
+      color: #444;
+      margin-top: 1.5rem;
     }
 
     footer {
@@ -84,21 +72,22 @@
 </head>
 <body>
   <header>
-    <h1>Last letter</h1>
+    <h1>Last Letter</h1>
   </header>
 
- <section class="farewell" style="max-width: 800px; margin: 2rem auto; padding: 2rem; background: #fff8f8; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.05); font-family: Georgia, serif; line-height: 1.8;">
-  <p><strong>To those who have harmed me</strong>, I leave all my worldly forgiveness. For the harm they gave me was mine to bear, and I wish for it to be buried with me. I do not want to take any grudges with me either.</p>
+  <main>
+    <article class="farewell">
+      <p><strong>To those who have harmed me</strong>, I leave all my worldly forgiveness. For the harm they gave me was mine to bear, and I wish for it to be buried with me. I do not want to take any grudges with me either.</p>
 
-  <p><strong>To my family</strong> I leave the words unspoken. The things you wish I would have said aloud. The things I did say, I only regret, for they fell on ears unwilling to listen. My bravery is extinguished. My fire is embers.</p>
+      <p><strong>To my family</strong> I leave the words unspoken. The things you wish I would have said aloud. The things I did say, I only regret, for they fell on ears unwilling to listen. My bravery is extinguished. My fire is embers.</p>
 
-  <p><strong>To those that I had the honour of loving</strong>. To you I leave responsibility. With the awareness of how selfish I am being. I ask the most—keep alive the memories we shared in your heart. Feed them and water them. Let them bloom into even better ones in new places with new people. Bring joy into this cruel world. Leave the pain, the fights and the sorrow with me. I can carry it away now. I truly believe I was built to be alone on this planet, but I resisted as long as I could. I am truly sorry. Do not mourn me. What I want for you is joy. And love. And a long, happy life.</p>
+      <p><strong>To those that I had the honour of loving</strong>. To you I leave responsibility. With the awareness of how selfish I am being. I ask the most—keep alive the memories we shared in your heart. Feed them and water them. Let them bloom into even better ones in new places with new people. Bring joy into this cruel world. Leave the pain, the fights and the sorrow with me. I can carry it away now. I truly believe I was built to be alone on this planet, but I resisted as long as I could. I am truly sorry. Do not mourn me. What I want for you is joy. And love. And a long, happy life.</p>
 
-  <p style="text-align: right; margin-top: 2rem;">—Deon</p>
+      <p class="signature">—Deon</p>
 
-  <p style="font-style: italic;"><strong>P.S.</strong> One of my favorite things I ever wrote:</p>
+      <p><strong>P.S.</strong> One of my favorite things I ever wrote:</p>
 
-  <blockquote style="white-space: pre-wrap; background: #fefefe; border-left: 4px solid #b23a48; padding: 1.5rem; border-radius: 10px; font-size: 0.95rem; color: #444;">
+      <blockquote>
 We lived there. We loved there. The smoke choked out my family. They were dead before the fire ever touched them. A mercy for some. A torturous mercy. Calmly words drifted into our community. Suggestions and knowledge. Research and propaganda. They dare not drift with filters. They drift with targeted precision. They move slowly and wistfully, with unspecific intentions to outsiders, but clear and precise effects. The intention does not determine the path, only the end. 
 
 We knew where the fire started, only afterwards though. In the moment, we assumed it was where the screams shouted. But that is not necessarily the truth. The screams did coalesce in the moment. They flowed together, individuals, people, reduced to a symphony of sorrows. Oh what a core feature it is, to scream, to panic in pain. Oh how human it is to lose sanity in cries of pain. How horribly human. 
@@ -144,12 +133,12 @@ Now is not the time for innovation.
 Stick to what works kid. 
 Why fix what broke them last time? 
 Your sparks fly into our homes. The fires start somewhere. They always do. And at some point we should really get around to finding out where a fire starts.  We are tired of seeing how fires spread. We are tired of the burned bodies. We are tired of the bones we need to bury in the foundations of the new walls we keep building. 
-
-  </blockquote>
-</section>
-
+</blockquote>
+    </article>
+  </main>
 
   <footer>
+    <!-- Footer left intentionally empty for now -->
   </footer>
 </body>
 </html>
